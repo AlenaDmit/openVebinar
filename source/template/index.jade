@@ -14,15 +14,19 @@ body
 				div.left__block-form_desc
 					p.left__block-form_desc-item <sup>*</sup>Обязательно подтвердите email на почте
 					p.left__block-form_desc-item <sup>*</sup>Количество мест ограничено
-				.left__block-form
-					input(type="text" name="name" placeholder="Имя").form__name.form-item
-					input(type="text" name="name" placeholder="Фамилия").form__surname.form-item
+				form.left__block-form(method="POST" action="http://cp.unisender.com/ru/subscribe?hash=5gak6ycfo943mbeo3q4qr78upmcmswtxhzcyenhkcbp6quk1894oo" name="subscribtion_form" target="_blank")
+					input(type="text" name="f_5391861" placeholder="Имя").form__name.form-item
+					input(type="text" name="f_5391865" placeholder="Фамилия").form__surname.form-item
 					input(type="email" name="email" placeholder="Е-mail").form__email.form-item
 					button(type="submit").form__submit Зарегистрироваться!
+					input(type="hidden" name="charset" value="UTF-8")
+					input(type="hidden" name="default_list_id" value="8412415")
+					input(type="hidden" name="overwrite" value="2")
+					input(type="hidden" name="is_v5" value="1")
 			.left__block-footer
 				ul.footer__socials
 					li.footer__socials
-						a.footer__social-link(href="#"  target="_blank")
+						a.footer__social-link(href="https://vk.com/event134409801"  target="_blank")
 							span.fa &#xf189;
 		
 		.container
@@ -33,7 +37,7 @@ body
 					p Что требуется от Frontend-разработчика, чтобы на нее устроиться?
 				.right__block-text <b class="right__block-text_bold">18 декабря в 16.00</b> с вами <b class="right__block-text_bold">бесплатно</b> поделятся реальным опытом люди, которые уже получили ответ на этот вопрос – <b class="right__block-text_bold">разработчик "ВКонтакте" Тимофей Чаптыков</b> и <b class="right__block-text_bold">разработчик Mail.ru Дарья Пушкарская</b>.
 				.right__block-text 
-					.text-head Зарегистрируйтесь в форме слева на открытый вебинар и вы узнаете:
+					.text-head Зарегистрируйся в форме слева на открытый вебинар и вы узнаете:
 					ol.right__block-text-list
 						li.right__block-text-item какими технологиями нужно владеть в обязательном порядке
 						li.right__block-text-item как составить резюме, чтобы повысить свои шансы на трудоустройство
