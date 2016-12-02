@@ -14,7 +14,6 @@
 		font-size: 1.5rem;
 		line-height: 3rem;
 		vertical-align: middle;
-		color: black;
 		background-color: rgba(white, .2);
 		@include robotoB();
 		color: $pink;
@@ -32,6 +31,16 @@
 			margin: 30px;
 			color: rgba(white, .8);
 		}
+
+		.left__block-form_desc {
+			margin: 0 0 20px 0;
+			font-size: 12px;
+			color: $pink;
+		}
+
+			.left__block-form_desc-item {
+				margin: 0;
+			}
 
 		.left__block-form{
 			margin: 0 0 20px 0;
@@ -106,8 +115,8 @@
 
 	.right__block-title{
 		@include robotoB();
-		font-size: 2rem;
-		text-align: center;
+		font-size: 2.2rem;
+		text-align: left;
 		margin: 0 0 20px 0;
 
 		p{
@@ -141,6 +150,11 @@
 			}
 		}
 	}
+
+		 .right__block-text_bold {
+			 font-family: 'robotobold';
+		 }
+
 	.right__block-text-wrap{
 		display: flex;
 		flex-direction: row;
@@ -164,6 +178,7 @@
 	}
 
 	.right__block-speakers{
+		margin: 0 0 40px;
 		width: 100%;
 
 		.right__block-speakers-title{
